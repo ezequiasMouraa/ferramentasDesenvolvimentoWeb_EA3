@@ -1,0 +1,52 @@
+/* estilo_form.css */
+
+body {
+    background-color: #282a36;
+    color: #f8f8f2;
+    font-family: 'Courier New', Courier, monospace;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-card {
+    background-color: #44475a;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    box-sizing: border-box;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.form-card input[type="text"],
+.form-card input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #282a36;
+    color: #f8f8f2;
+    border: 1px solid #6272a4;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.form-card input[type="submit"] {
+    background-color: #bd93f9;
+    color: #f8f8f2;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.form-card input[type="submit"]:hover {
+    background-color: #f1fa8c;
+    color: #282a36;
+}
